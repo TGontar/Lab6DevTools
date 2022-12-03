@@ -32,3 +32,6 @@ class TestSort(unittest.TestCase):
 
     def test_manyDifferentValuesReversed(self):
         self.assertEqual(insertionSort([999 - i for i in range(1000)]), [i for i in range(1000)])
+
+if __name__ == "__main__":
+  unittest.main()
