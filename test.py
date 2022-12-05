@@ -13,7 +13,7 @@ class TestSort(unittest.TestCase):
         self.assertEqual(insertionSort([5, 1, 3, 4, 2]), [1, 2, 3, 4, 5])
 
     def test_differentValues1(self):
-        self.assertEqual(insertionSort([3, 2, 2, 1, 54, 2]), [1, 2, 2, 2, 3, 54])
+        self.assertEqual(insertionSort([3, 2, 2, 1, 54, 2]), [1, 2, 2, 2, 40, 54])
 
     def test_differentValues2(self):
         self.assertEqual(insertionSort([43, 4, 2, 1, 1, 64, 4, 10]), [1, 1, 2, 4, 4, 10, 43, 64])
